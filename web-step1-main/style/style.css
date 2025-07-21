@@ -52,3 +52,25 @@ table {
   border-spacing: 0;
 }
 /* リセットCSS おわり */
+
+
+/* header */
+header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: 000000;
+  
+}
+header h1 {
+  width: 135px;
+  height: 76px;
+}
+header nav {
+  margin: auto;
+  
+}
+header ul {
+  display: flex;
+  color: ffffff;
+}
