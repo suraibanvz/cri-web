@@ -54,23 +54,28 @@ table {
 /* リセットCSS おわり */
 
 
-/* header */
+/* ------------------header -----------------*/
 header {
   display: flex;
   height: 100px;
   align-items: center;
-  background-color: 000000;
-  
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 40px ;
+  color: #fff;
 }
-header h1 {
+header h1 { 
   width: 135px;
-  height: 76px;
 }
 header nav {
-  margin: auto;
+  margin-left: 55px;
   
 }
 header ul {
   display: flex;
-  color: ffffff;
+  gap: 40px;
+  justify-content: space-between;
 }
+.header_button{
+  margin-left: auto;
+}
+/* ------------------main -----------------*/
