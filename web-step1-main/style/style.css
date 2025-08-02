@@ -75,7 +75,34 @@ header ul {
   gap: 40px;
   justify-content: space-between;
 }
-.header_button{
+.header_button {
   margin-left: auto;
+  
+}
+.button1 {
+  background: rgb(120,120,30);
+  padding: 15px 10px;
+
+}
+.button2 {
+  border: 1px solid #fff;
+  padding: 15px 10px;
 }
 /* ------------------main -----------------*/
+.first_view {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/re-KV-1\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  z-index: -1;
+}
+.main_image1 {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(../image/main_bg.jpg);
+  background-size: cover;
+  background-position: center; */
+}
