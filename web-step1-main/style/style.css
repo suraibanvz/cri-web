@@ -87,6 +87,7 @@ header ul {
 .button2 {
   border: 1px solid #fff;
   padding: 15px 10px;
+  margin-left: 15px;
 }
 /* ------------------main -----------------*/
 .first_view {
@@ -110,6 +111,8 @@ header ul {
   margin: 269px 0 175px 150px;
 }
 .main_image3 {
+  background-image: url(../image/main_bg.jpg);
   width: 100%;
   height: 100vh;
 }
+
