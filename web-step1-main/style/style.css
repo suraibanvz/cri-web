@@ -94,18 +94,12 @@ header ul {
   position: absolute;
   width: 100%;
   height: 100vh;
-  /* background-image: url(../image/re-KV-1\ 1.jpg);
-  background-size: cover;
-  background-position: center; */
   top: 0;
   z-index: -1;
 }
 .main_image1 {
   width: 100%;
   height: 100vh;
-  /* background-image: url(../image/main_bg.jpg);
-  background-size: cover;
-  background-position: center; */
 }
 .main_image2 {
   margin: 269px 0 175px 150px;
@@ -114,5 +108,23 @@ header ul {
   background-image: url(../image/main_bg.jpg);
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+.comment1 {
+  writing-mode: vertical-rl;
+  letter-spacing: 0.3em;
+  font-size: 48px;
+  line-height: 1.8em;
+  color: #fff;
+  position: relative;
+  top: 150px;
+}
+.comment2 {
+  color: #fff; 
+  text-align: center; 
+  line-height: 3.0; 
+  margin-top: 100px;
+}
