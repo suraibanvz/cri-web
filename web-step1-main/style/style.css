@@ -100,6 +100,8 @@ header ul {
 .main_image1 {
   width: 100%;
   height: 100vh;
+  object-fit: cover; 
+
 }
 .main_image2 {
   margin: 269px 0 175px 150px;
@@ -107,11 +109,14 @@ header ul {
 .main_image3 {
   background-image: url(../image/main_bg.jpg);
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 150px 100px;   
+  box-sizing: border-box; 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 100px;
 }
 .comment1 {
   writing-mode: vertical-rl;
@@ -119,12 +124,20 @@ header ul {
   font-size: 48px;
   line-height: 1.8em;
   color: #fff;
-  position: relative;
-  top: 150px;
 }
 .comment2 {
   color: #fff; 
   text-align: center; 
   line-height: 3.0; 
-  margin-top: 100px;
+}
+.main_image4 {
+  width: 100%; 
+}
+.main_image4 img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+.news-container {
+  text-align: center;
 }
