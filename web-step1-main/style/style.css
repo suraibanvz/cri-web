@@ -106,6 +106,8 @@ header ul {
 .main_image2 {
   margin: 269px 0 175px 150px;
 }
+
+
 .main_image3 {
   background-image: url(../image/main_bg.jpg);
   width: 100%;
@@ -131,12 +133,8 @@ header ul {
   line-height: 3.0; 
 }
 .main_image4 {
-  width: 100%; 
-}
-.main_image4 img {
-  width: 100%; 
-  height: auto; 
-  display: block; 
+  width: 1177px; 
+  height: 824px;
 }
 .news-container {
   text-align: center;
