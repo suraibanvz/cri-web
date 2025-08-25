@@ -75,40 +75,40 @@ header ul {
   gap: 40px;
   justify-content: space-between;
 }
-.header_button {
+.HeaderButton {
   margin-left: auto;
   
 }
-.button1 {
+.Button1 {
   background: rgb(120,120,30);
   padding: 15px 10px;
 
 }
-.button2 {
+.Button2 {
   border: 1px solid #fff;
   padding: 15px 10px;
   margin-left: 15px;
 }
 /* ------------------main -----------------*/
-.first_view {
+.FirstView {
   position: absolute;
   width: 100%;
   height: 100vh;
   top: 0;
   z-index: -1;
 }
-.main_image1 {
+.MainImage1 {
   width: 100%;
   height: 100vh;
   object-fit: cover; 
 
 }
-.main_image2 {
+.MainImage2 {
   margin: 269px 0 175px 150px;
 }
 
 
-.main_image3 {
+.MainImage3 {
   background-image: url(../image/main_bg.jpg);
   width: 100%;
   min-height: 100vh;
@@ -120,22 +120,22 @@ header ul {
   flex-direction: column;
   gap: 100px;
 }
-.comment1 {
+.Comment1 {
   writing-mode: vertical-rl;
   letter-spacing: 0.3em;
   font-size: 48px;
   line-height: 1.8em;
   color: #fff;
 }
-.comment2 {
+.Comment2 {
   color: #fff; 
   text-align: center; 
   line-height: 3.0; 
 }
-.main_image4 {
+.MainImage4 {
   width: 1177px; 
   height: 824px;
 }
-.news-container {
+.NewsContainer {
   text-align: center;
 }
