@@ -169,7 +169,7 @@ header ul {
 .MainTitle {
   font-size: 36px;
   font-weight: bold;
-  font-family: ;
+  /* font-family: ; */
 }
 
 .SubTitle {
@@ -216,6 +216,7 @@ header ul {
   color: #888888;
 
 }
+
 .NewsTitle {
   color: #000;
 }
@@ -227,15 +228,20 @@ header ul {
 }
 
 .RecommendPlan {
-    padding: 100px 0 169.09px 0;
-    background-color: #E8E7E2;
-    text-align: center;
+  padding: 100px 0 169.09px 0;
+  background-color: #E8E7E2;
+  text-align: center;
+}
+
+.RecommendPlan h2 {
+  margin-bottom: 41px;
+  line-height: 1.5;
 }
 
 .PlanImage {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .PlanImage1 {
@@ -285,7 +291,7 @@ header ul {
 }
 
 .ReservationButton1 span {
-color: #FFFFFF;
+  color: #FFFFFF;
   font-size: 28px;
 }
 
@@ -314,3 +320,32 @@ color: #FFFFFF;
 
 }
 
+.Nature,
+.Room,
+.Food,
+.Onsen {
+  margin: 15px 0;
+  max-width: 1280px;
+  height: auto;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.SectionImage {
+  width: 100%; /* 親要素の幅いっぱいに広げる */
+  height: auto; /* アスペクト比を維持 */
+  display: block; /* 画像の下に余計なスペースができないように */
+}
+
+.NatureComment,
+.RoomComment,
+.FoodComment,
+.OnsenComment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
