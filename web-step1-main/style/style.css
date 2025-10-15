@@ -69,7 +69,7 @@ header h1 {
   width: 135px;
 }
 
-header nav {
+header Nav {
   margin-left: 55px;
 
 }
@@ -325,7 +325,7 @@ header ul {
 .Food,
 .Onsen {
   margin: 15px 0;
-  max-width: 1280px;
+  max-width: auto;
   height: auto;
   color: #ffffff;
   position: relative;
@@ -334,9 +334,9 @@ header ul {
 }
 
 .SectionImage {
-  width: 100%; /* 親要素の幅いっぱいに広げる */
-  height: auto; /* アスペクト比を維持 */
-  display: block; /* 画像の下に余計なスペースができないように */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .NatureComment,
@@ -347,5 +347,95 @@ header ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.GoogleMap iframe {
+  margin: 15px 0;
+  width: 100%;
+  height: 700px;
+}
+
+.GoogleButton {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.Button3 {
+  width: 235px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: #BBBBBB;
+  color: #FFFFFF;
+  background-color: #BBBBBB;
+
+
+}
+
+.Button4 {
+  width: 235px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: #222222;
+  color: #FFFFFF;
+  background-color: #222222;
+}
+
+footer {
+  margin: 150px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.FooterTopContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  width: 100%;
+}
+
+.FooterImage {
+  width: 588px;
+  height: 412px;
+
+}
+
+.FooterLogo p {
+  margin: 50px 0 0 0;
+  line-height: 2.0;
+
+}
+
+.FooterNav {
+  margin: 100px 0 55px 0;
+}
+
+.FooterNavUl {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+}
+
+.FooterLinkImage {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.CopyRight {
+  font-size: 12px;
+  margin-top: 65px;
   text-align: center;
 }
